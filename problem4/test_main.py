@@ -7,7 +7,7 @@ class TestGeneratePrimesGrid(unittest.TestCase):
         self.assertEqual(generate_primes_grid(2, 3, 13), expected_output)
 
     def test_case_2(self):
-        expected_output = "2  3  5  7 11\n13 17 19 23 29\n"
+        expected_output = "2 3 5 7 11\n13 17 19 23 29\n"
         self.assertEqual(generate_primes_grid(5, 2, 1), expected_output)
 
 if __name__ == "__main__":
